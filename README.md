@@ -1,2 +1,0 @@
-observing-ly.github.com
-=====================
