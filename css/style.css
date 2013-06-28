@@ -2,6 +2,10 @@ body {
 	background-image: url("images/paper_fibers.png");
 }
 h1 {
+<<<<<<< HEAD
+=======
+	margin-top: 50px;
+>>>>>>> origin/master
 	font-family: short-stack, sans-serif;
 	font-weight: 500;
 	font-style: normal;
