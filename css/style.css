@@ -1,7 +1,7 @@
 body {
 	background-image: url("images/paper_fibers.png");
 	}
-h1 {
+h1, @font-face {
 <<<<<<< HEAD
 =======
 	margin-top: 50px;
