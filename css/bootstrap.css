@@ -8,10 +8,10 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
  body {
-  background-image: url("foggy_birds.png");
+  background-image: url("images/foggy_birds.png");
 }
 .spanconhome{
-  background-image: url("linedpaper.png");
+  background-image: url("images/linedpaper.png");
   height:500px;
   margin-right:-50%;
   margin-bottom: 2%;
@@ -20,7 +20,7 @@
   border-radius: 10px;
 }
 .spancon {
-  background-image: url("linedpaper.png");
+  background-image: url("images/linedpaper.png");
   height:1000px;
   margin-bottom: 2%;
   margin-top: 2%;
@@ -28,7 +28,7 @@
   border-radius: 10px;
 }
 .spancontacts {
-  background-image: url("linedpaper.png");
+  background-image: url("images/linedpaper.png");
   height: 110px;
   box-shadow: inset 1px 1px 10px #656667;
   border-radius: 10px;  
@@ -38,7 +38,7 @@
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: url('email.png') bottom;
+  background: url('images/email.png') bottom;
 }
 .email:hover {
   background-position: center;
@@ -52,7 +52,7 @@
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: url('facebook.png') bottom;
+  background: url('images/facebook.png') bottom;
   text-indent: -99999px;
 }
 .facebook:hover {
@@ -65,7 +65,7 @@
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: url('twitter.png') bottom;
+  background: url('images/twitter.png') bottom;
   text-indent: -99999px;
 }
 .twitter:hover {
