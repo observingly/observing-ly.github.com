@@ -10,49 +10,6 @@
 .nav {
   margin-top: 5%;
 }
-.email {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  background: url('images/email.png') bottom;
-}
-.email:hover {
-  background-position: center;
-}
-
-.email:active {
-  background-position: top;
-}
-
-.facebook {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  background: url('images/facebook.png') bottom;
-  text-indent: -99999px;
-}
-.facebook:hover {
-  background-position: center;
-}
-.facebooks:active { 
-  background-position: top;
-}
-.twitter {
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  background: url('images/twitter.png') bottom;
-  text-indent: -99999px;
-}
-.twitter:hover {
-  background-position: center;
-}
-.twitter:active
-{ 
-  background-position: top;
-}
-
-
 .clearfix {
   *zoom: 1;
 }
