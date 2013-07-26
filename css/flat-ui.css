@@ -545,11 +545,11 @@ h6 {
   margin-right: -2px;
 }
 .btn.btn-primary {
-  background-color: #dfdfdf;
+  background-color: #16a085;
 }
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-  background-color: #00F5FF;
+  background-color: #a8dde9;
 }
 .btn.btn-primary:active,
 .btn-group.open .btn.btn-primary.dropdown-toggle,
@@ -3607,11 +3607,26 @@ body.vjs-full-window {
 }
 .login-form {
   background-color: #edeff1;
+  margin-top: -3%;
   padding: 24px 23px 20px;
   position: relative;
+  left:-5%;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
+  display: block;
+}
+.reg-form {
+  margin-top: 3%;
+  padding: 24px 23px 20px;
+  position: relative;
+  top:15%;
+  left:35%;
+  width:25%;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  display: block;
 }
 .login-form:before {
   content: '';
@@ -3626,16 +3641,17 @@ body.vjs-full-window {
   -webkit-transform: rotate(360deg);
 }
 .login-form .control-group {
+  display:inline-block;
   margin-bottom: 6px;
   position: relative;
 }
 .login-form .login-field {
   border-color: transparent;
-  font-size: 17px;
+  font-size: 14px;
   padding-bottom: 11px;
   padding-top: 11px;
   text-indent: 3px;
-  width: 299px;
+  width: 295px;
   margin-bottom: 10px !important;
 }
 .login-form .login-field:focus + .login-field-icon {
@@ -3655,7 +3671,7 @@ body.vjs-full-window {
 }
 .login-link {
   color: #bfc9ca;
-  display: block;
+  display: inline-block;
   font-size: 13px;
   margin-top: 15px;
   text-align: center;
