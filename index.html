@@ -4,37 +4,50 @@
 	<title>Hello, World!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="stylesheet" type="text/css" href="flat-ui.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap-responsive.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap-docs.css">
-	<link rel="stylesheet" type="text/css" href="prettify.js">
-	<link rel="stylesheet" type="text/css" href="bootstrap.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/flat-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-docs.css">
+	<link rel="stylesheet" type="text/css" href="css/prettify.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen">
 </head>
-<body vlink="" alink="#f8f999"data spy="scroll" data-target=".btn-toolbar">
-	<script src="http://code.jquery.com/jquery.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-				<a class="btn btn-primary btn-mini" href="#home"><img src="home-outline.png"></a><br><br><br>
-				<a class="btn btn-primary btn-mini" href="#about"><img src="user-outline.png"></a><br><br><br>
-				<a class="btn btn-primary btn-mini" href="#gallery"><img src="image-outline.png"></a><br><br><br>
-				<a class="btn btn-primary btn-mini" href="#contacts"><img src="at.png"></a><br><br><br>
-				<a class="btn btn-primary btn-mini" href="#portfolio"><img src="code-outline.png"></a>
+<body>
+	<div class="login-form" style="float:right;">
+		<input id="login-name" class="login-field" type="text" placeholder="username" value=""></input>&emsp;
+		<input id="login-pass" class="login-field" type="password" placeholder="password" value=""></input>&emsp;
+		<input type="button" class="btn-large btn-primary" value="Login" style="display:inline-block;"></input>&emsp;
+		<a href="#home" class="btn-large btn-primary">Sign Up!</a>
+	</div>
+	<div class="nav">
+		<a class="btn btn-mini btn-primary" href="#home"><img src="images/home-outline.png"></a><br><br><br>
+		<a class="btn btn-primary btn-mini" href="#about"><img src="images/user-outline.png"></a><br><br><br>
+		<a class="btn btn-primary btn-mini" href="#gallery"><img src="images/image-outline.png"></a><br><br><br>
+		<a class="btn btn-primary btn-mini" href="#contacts"><img src="images/at.png"></a><br><br><br>
+		<a class="btn btn-primary btn-mini" href="#portfolio"><img src="images/code-outline.png"></a>
+	</div>
 		<div id="home" class="spanconhome" style="font-family:Courier;">
-			<h1 align="center" style="margin-top:25%;">Welcome to my website :D</h1>
+		<img src="parallax_icons.png" style="position:absolute;">
+		<div class="reg-form">
+			<input id="login-name" class="login-field" type="text" placeholder="name" value=""></input>
+			<input id="login-name" class="login-field" type="text" placeholder="email" value=""></input>
+			<input id="login-name" class="login-field" type="text" placeholder="username" value=""></input>
+			<input id="login-pass" class="login-field" type="password" placeholder="password" value="">
+			<input id="login-pass" class="login-field" type="password" placeholder="confirm password" value="">
+			<input type="button" class="btn-large btn-block btn-primary" value="Sign Up" style="display:inline-block;"></input>
+		</div>
 		</div>
 		<div id="about" class="spancon" style="font-family:Courier; font-size:16px;">
-			<img src="me.jpeg" width="25%" height="25%" align="right" style="margin:5%; border-radius:10px;">
-			<img src="quote.left.png">
+			<img src="images/me.jpeg" width="25%" height="25%" align="right" style="margin:5%; border-radius:10px;">
+			<img src="images/quote.left.png">
 			<p style="margin-left: 8%;">Hello, I am Cristy Lovely Escorial (Ly Escorial). I am currently a junior college student at FEU-East Asia College and taking up B.S in Information Technology with specialization in Web Application Development. I am also a Junior Officer of Association for Computing Machinery.</p><br>
 			<p style="margin-left: 8%;">Okay, let me talk about myself since this section is all about the person behind this HTML code. Should I start? Ahem!</p><br>
 			<p style="margin-left: 8%; margin-right:2%;">I am known online as observingly (username) in different accounts across the web. But not well-known just known by some. Books, web comics, WWW are a few areas of my interests. Some random yet fun facts about me: I am 20 years old (stuck in a kid's stature). I have a twin sibling (I can look exactly like her because it's an inborn talent LOL). I am half-Japanese (not obvious).</p><br>
 			<p style="margin-left: 8%;">Adventure is out there! (*thumbs up) May the odds be ever in  your favor. (*in Effie Trinket's accent)Th-th-th-that's all folks! (Porky Pig's signature line)</p>
-			<img src="quote.right.png" align="right">
+			<img src="images/quote.right.png" align="right">
 		</div>
-		<div id="gallery" class="spancon" align="center"><br><br><br>
-			<img src="1.jpg" width="10%" height="10%" target="gallery">
-			<img src="2.jpg" width="10%" height="10%" target="gallery">
-			<img src="3.jpg" width="10%" height="10%" target="gallery">
-			<img src="4.jpg" width="10%" height="10%" target="gallery">
+		<div id="gallery" class="spancon" align="center"><br><br><br><br>
+			<img src="images/1.jpg" width="30%" height="50%" target="gallery">&emsp;&emsp;&emsp;&emsp;&emsp;
+			<img src="images/2.jpg" width="30%" height="50%" target="gallery"><br><br><br>
+			<img src="images/3.jpg" width="70%" height="50%" target="gallery">
 			<br><br><br>
 			<iframe width="85%" height="60%" align="center" frameborder="0" name="gallery"></iframe>
 		</div>
@@ -47,10 +60,10 @@
 			</center>
 		</div>
 		<div id="portfolio" class="spancon" align="center" style="font-family:Courier;"><br><br><br>
-			<a href="about/index.html" target="frame"><strong>About Me</strong></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-			<a href="cv.html" target="frame"><strong>Curriculum Vitae</strong></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-			<a href="cor/index.html" target="frame"><strong>COR</strong></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-			<a href="neil gaiman/index.html" target="frame"><strong>Personal Web Template</strong></a>
+			<a href="about/index.html" class="btn-large btn-primary" target="frame"><strong>About Me</strong></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			<a href="cv.html" class="btn-large btn-primary" target="frame"><strong>Curriculum Vitae</strong></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			<a href="cor/index.html" class="btn-large btn-primary" target="frame"><strong>COR</strong></a>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+			<a href="neil gaiman/index.html" class="btn-large btn-primary" target="frame"><strong>Personal Web Template</strong></a>
 			<br><br><br>
 			<iframe width="85%" height="70%" frameborder="0" name="frame"></iframe>
 		</div>
