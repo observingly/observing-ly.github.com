@@ -294,23 +294,6 @@ a:focus {
 .navbar-fixed-bottom .container {
   width: 940px;
 }
-.spanconhome {
-  width: 79%;
-  margin-left: 16%;
-}
-.spancontacts {
-  width: 79%;
-  margin-left: 16%;
-  margin-top: 2%;
-}
-
-
-.spancon {
-  width: 79%;
-  height: 570px;
-  margin-left: 16%;
-}
-
 .sidebar {
   width: 140px;
   margin-top: 1%;
