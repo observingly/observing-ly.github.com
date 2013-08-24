@@ -98,6 +98,14 @@
 	</style>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	<div class="login-form" style="float:right;">
 		<input id="login-name" class="login-field" type="text" placeholder="username" value=""></input>&emsp;
 		<input id="login-pass" class="login-field" type="password" placeholder="password" value=""></input>&emsp;
@@ -111,8 +119,10 @@
 		<a class="btn btn-primary btn-mini" href="#contacts"><img src="images/at.png"></a><br><br><br>
 		<a class="btn btn-primary btn-mini" href="#portfolio"><img src="images/code-outline.png"></a>
 	</div>
+	
 		<div id="home" class="spanhome">
 		<img src="images/parallax_icons.png" style="position:absolute;">
+		<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-width="450" data-layout="button_count" data-show-faces="false" data-send="true"></div>
 		<div class="reg-form">
 			<input id="login-name" class="login-field" type="text" placeholder="name" value=""></input>
 			<input id="login-name" class="login-field" type="text" placeholder="email" value=""></input>
