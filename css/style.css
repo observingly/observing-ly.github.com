@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
 * { padding: 0; margin: 0; }
 
-body { font-family: 'Courier New', cursive; text-transform: uppercase; letter-spacing: 1px;}
+body { font-family: 'Courier New'; font-color: #fff; text-transform: uppercase; letter-spacing: 1px;}
 
 header {
     text-align: justify;
