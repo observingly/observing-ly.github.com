@@ -2,9 +2,9 @@
 * { padding: 0; margin: 0; }
 
 body { 
+    font-family: 'Courier New';
     color: #fff; 
     background: #34495e;
-    text-transform: uppercase; 
     letter-spacing: 1px;
 }
 
@@ -44,6 +44,7 @@ header > div::before {
 header > div h1 {
     font-size: 2.5em;
     font-family: 'Press Start 2P', cursive;
+    text-transform: uppercase;
 }
 
 header nav a {
@@ -114,7 +115,7 @@ header nav a {
     -moz-transform: translateX(0px);
     transform: translateX(0px);
 }
-body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
+body, html { font-size: 12pt; padding: 0; margin: 0; height: 100%;}
 
 *,
 *:after,
@@ -556,7 +557,6 @@ section.bl-expand .bl-icon-close {
 }
 
 footer {
-    color: #fff;
     text-align: center;
     vertical-align: middle;
     text-transform: none;
