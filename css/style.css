@@ -1,7 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
 * { padding: 0; margin: 0; }
 
-body { font-family: 'Courier New', cursive; text-transform: uppercase; letter-spacing: 1px;}
+@font-face {
+    font-family: 'icomoon';
+    src:url('/fonts/icomoon.eot');
+    src:url('/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/icomoon.woff') format('woff'),
+        url('/fonts/icomoon.ttf') format('truetype'),
+        url('/fonts/icomoon.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { 
+    font-family: 'Courier New'; 
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+}
 
 header {
     text-align: justify;
@@ -135,10 +150,6 @@ a {
     font-size: 80%;
 }
 
-a:hover {
-    color: #fff;
-}
-
 .container { height: 100%; }
 
 .bl-main {
@@ -222,20 +233,20 @@ a:hover {
     padding: 20px;
     width: 100%;
     font-size: 1.8em;
+    color: #fff;
     letter-spacing: 2px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .bl-icon {
-    font-family: 'icomoon';
     speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
     line-height: 1;
-    cursor: pointer;
+    cursor: pointer;    
     -webkit-font-smoothing: antialiased;
 }
 
@@ -245,15 +256,21 @@ a:hover {
     margin-bottom: 10px;
 }
 
+.bl-icon-home:before {
+    content: "\e000"
+}
 .bl-icon-about:before {
     content: "\e000";
 }
+.bl-icon-gallery:before {
+    content: "\e000";
+}
 
-.bl-icon-works:before {
+.bl-icon-portfolio:before {
     content: "\e001";
 }
 
-.bl-icon-blog:before {
+.bl-icon-favorites:before {
     content: "\e002";
 }
 
