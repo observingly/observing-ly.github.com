@@ -42,7 +42,7 @@ header > div::before {
 }
 
 header > div h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: 'Press Start 2P', cursive;
     text-transform: uppercase;
 }
@@ -115,7 +115,7 @@ header nav a {
     -moz-transform: translateX(0px);
     transform: translateX(0px);
 }
-body, html { font-size: 12pt; padding: 0; margin: 0; height: 100%;}
+body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
 
 *,
 *:after,
