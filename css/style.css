@@ -484,16 +484,22 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 
 .bl-main > section:first-child.bl-expand {
-    background: #EE4444;
+    background: #50d07d;
 }
 .bl-main > section:nth-child(2).bl-expand {
-    background: #F98262;
+    background: #10A296;
 }
 .bl-main > section:nth-child(3).bl-expand {
-    background: #4BBE8E;
+    background: #72CCA7;
 }
 .bl-main > section:nth-child(4).bl-expand {
-    background: #0D8278;
+    background: #72CCA7;
+}
+.bl-main > section:nth-child(5).bl-expand {
+    background: #1abc9c;
+}
+.bl-main > section:nth-child(6).bl-expand {
+    background: #50d07d;
 }
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
