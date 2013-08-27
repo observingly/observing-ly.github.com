@@ -218,43 +218,10 @@ body {
     text-transform: uppercase;
 }
 
-.bl-icon {
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    cursor: pointer;    
-    -webkit-font-smoothing: antialiased;
-}
-
 .bl-icon:before {
     display: block;
     font-size: 2em;
     margin-bottom: 10px;
-}
-
-.bl-icon-home:before {
-    content: "\e000"
-}
-.bl-icon-about:before {
-    content: "\e000";
-}
-.bl-icon-gallery:before {
-    content: "\e000";
-}
-
-.bl-icon-portfolio:before {
-    content: "\e001";
-}
-
-.bl-icon-favorites:before {
-    content: "\e002";
-}
-
-.bl-icon-contact:before {
-    content: "\e003";
 }
 
 .bl-main > section .bl-icon-close {
