@@ -7,6 +7,17 @@
 	<script src="js/modernizr.custom.js"></script>
 </head>
 <body>
+	<div class="md-modal md-effect-11" id="modal-11">
+		<div class="md-content">
+			<input class="md-close" type="button" value="X">
+			<form>
+				<input class="login-field" type="text" placeholder="username">
+				<input class="login-field" type="password" placeholder="password">
+				<input type="checkbox"> Remember me
+				<input class="login-btn" type="submit" value="Login">
+			</form>
+		</div>
+	</div>
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
   		var js, fjs = d.getElementsByTagName(s)[0];
@@ -21,7 +32,7 @@
 			<h1>OTTER RIFIC !</h1>
 		</div>
 		<nav class="cl-effect-1">
-			<a>LOGIN</a>
+			<a class="md-trigger" data-modal="modal-11">LOGIN</a>
 			<a>REGISTER</a>
 			<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-width="450" data-layout="button_count" data-show-faces="false" data-send="true"></div>
 		</nav>
@@ -43,7 +54,7 @@
 						<h2 class="bl-icon bl-icon-about">About</h2>
 					</div>
 					<div class="bl-content">
-						<h2>About</h2>
+						<h2>M-E</h2>
 						<p></p>
 					</div>
 					<span class="bl-icon bl-icon-close"></span>
@@ -145,12 +156,15 @@
 		});
 	</script>
 	<script src="js/classie.js"></script>
-	<script src="js/modalEffects.js"></script>
-	<script>
+		<script src="js/modalEffects.js"></script>
+
+		<!-- for the blur effect -->
+		<!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+		<script>
+			// this is important for IEs
 			var polyfilter_scriptpath = '/js/';
 		</script>
 		<script src="js/cssParser.js"></script>
-		<script src="js/css-filters-polyfill.js">
-	</script>
+		<script src="js/css-filters-polyfill.js"></script>
 </body>
 </html>
