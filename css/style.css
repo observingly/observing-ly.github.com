@@ -532,7 +532,7 @@ footer {
 }
 .md-modal {
     position: absolute;
-    top: 54%;
+    top: 58%;
     left: 53%;
     width: 50%;
     height: 10%;
@@ -639,6 +639,7 @@ form {
     margin-left: 98%;
     margin-top: -10%;
 }
+
 .ps2p {
     font-family: 'Press Start 2P', cursive;
     font-size: 1em;
