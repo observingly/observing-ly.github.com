@@ -150,7 +150,7 @@ body {
 
 .bl-main > section {
     position: absolute;
-    width: 35%;
+    width: 33.3%;
     height: 50%;
 }
 
@@ -162,12 +162,12 @@ body {
 
 .bl-main > section:nth-child(2) {
     top: 0;
-    left: 35%;
+    left: 33.3%;
     background: #10A296;
 }
 .bl-main > section:nth-child(3) {
     top: 0%;
-    left: 70%;
+    left: 66.6%;
     background: #72CCA7;
 }
 
@@ -178,12 +178,12 @@ body {
 }
 .bl-main > section:nth-child(5) {
     top: 50%;
-    left: 35%;
+    left: 33.3%;
     background: #1abc9c;
 }
 .bl-main > section:nth-child(6) {
     top: 50%;
-    left: 70%;
+    left: 66.6%;
     background: #50d07d;
 }
 .bl-box {
@@ -620,6 +620,7 @@ footer {
     transform: scale(1);
     opacity: 1;
 }
+
 .login-field {
     font-family: 'Courier New';
     border-color: transparent;
