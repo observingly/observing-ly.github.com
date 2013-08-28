@@ -47,6 +47,15 @@ header > div h1 {
     font-family: 'Press Start 2P', cursive;
 }
 
+h1 a {
+    outline: none;
+}
+
+h1 a:visited, h1 a:link  {
+    text-decoration: none;
+    color: #fff;
+}
+
 header nav a {
     padding: 0 0.6em;
     white-space: nowrap;
@@ -235,7 +244,9 @@ body {
 }
 
 .bl-icon-close:before {
-    content: "\e005";
+    content: "X";
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2em;
 }
 
 .bl-content, 
