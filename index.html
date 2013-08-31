@@ -13,9 +13,9 @@
 			<input class="md-close" type="button" value="X">
 			<form>
 				<i class="icon-user"></i>
-				<input class="login-field" type="text" placeholder="username" required pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$">&nbsp;
+				<input class="login-field" type="text" placeholder="username" required">&nbsp;
 				<i class="icon-key"></i>
-				<input class="login-field" type="password" placeholder="password" required pattern="[^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).*$]"><br>
+				<input class="login-field" type="password" placeholder="password" required><br>
 				<input type="checkbox"> Remember me
 				<input class="login-btn" type="submit" value="Login">
 				<a class="login-link" href="#">Forgot your password?</a>
@@ -82,7 +82,29 @@
 					</div>
 					<div class="bl-content">
 						<h2>Keep in touch</h2>
-						<p></p>
+						<table align="left" cellpadding="10px" cellspacing="10px">
+							<tr>
+								<td><i class="icon-gmail"></i></td>
+								<td>lyescorial@gmail.com</td>
+							</tr>
+							<tr>
+								<td><i class="icon-mobile"></i></td>
+								<td>09277137627</td>
+							</tr>
+							<tr>
+								<td><i class="icon-map-marker"></i></td>
+								<td><iframe name="map" width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Quezon+Boulevard,+Manila,+Metro+Manila,+Philippines&amp;aq=1&amp;oq=quezon+bo&amp;sll=14.604959,120.977559&amp;sspn=0.020723,0.042186&amp;ie=UTF8&amp;hq=&amp;hnear=Quezon+Blvd,+Lungsod+ng+Maynila,+Metro+Manila,+Philippines&amp;t=m&amp;ll=14.601026,120.984535&amp;spn=0.024918,0.025749&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe></td>
+							</tr>
+						</table>
+						<form class="con-form">
+							<i class="icon-user"></i>
+							Name    <input class="login-field" type="text" required><br>
+							<i class="icon-emailalt"></i>
+							Email   <input class="login-field" type="email" required><br>
+							<i class="icon-commentround"></i>
+							Message <textarea id="Message"></textarea>
+							<input class="con-btn" type="submit" value="Submit">
+						</form>
 					</div>
 					<span class="bl-icon bl-icon-close"></span>
 				</section>
@@ -93,11 +115,11 @@
 					<div class="bl-content">
 						<h2>My Favorites</h2>
 						<p></p>
-					</div>
+						<iframe name="game" src="http://www.freeonlinegames.com/embed/21522" align="center" width="660" height="450" frameborder="no" scrolling="no"></iframe>
 					<span class="bl-icon bl-icon-close"></span>
 				</section>
 				<section id="bl-work-section">
-					<div class="bl-box">
+					<div class="bl-box"> 
 						<h2 class="bl-icon icon-code"><div class="ps2p">Portfolio</div></h2>
 					</div>
 					<div class="bl-content">

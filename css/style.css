@@ -288,6 +288,7 @@ div.bl-panel-items > div > div {
     font-size: 3em;
     font-weight: 300;
     margin: 0 0 20px 0;
+    font-weight: bold;
 }
 
 .bl-content article {
@@ -616,6 +617,19 @@ footer {
     border-radius: 5px;
 }
 
+textarea {
+    font-family: 'Courier New';
+    border-color: transparent;
+    font-size: 17px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-indent: 3px;
+    width: 228px;
+    height: 350px;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+
 form {
     padding: 5% 10% 5%;
 }
@@ -636,6 +650,25 @@ form {
     border-radius: 5px;
     cursor:pointer;
 }
+
+.con-btn {
+    font-family: 'Courier New';
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #34495e;
+    border-color: transparent;
+    font-size: 17px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-indent: 3px;
+    width: 210px;
+    height: 10%;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
 
 .login-link {
     color: #fff;
@@ -663,4 +696,8 @@ form {
 .reg-form {
     padding: 24px 23px 20px;
     position: relative;
+}
+.con-form {
+    padding: 24px 23px 20px;
+    text-align: right;
 }
