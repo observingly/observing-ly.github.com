@@ -618,15 +618,16 @@ footer {
     border-radius: 5px;
 }
 
-textarea {
+.text-field {
     font-family: 'Courier New';
     border-color: transparent;
     font-size: 17px;
     padding-bottom: 5px;
     padding-top: 5px;
+    content: ' ';
     text-indent: 3px;
     width: 228px;
-    height: 300px;
+    height: 100px;
     margin-bottom: 5%;
     border-radius: 5px;
 }
@@ -706,4 +707,8 @@ form {
 }
 table {
     font-size: 1.5em;
+}
+p > a:visited, p > a:link {
+    text-decoration: none;
+    color: #fff;
 }
