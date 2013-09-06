@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+		<title>ly's html page</title>
+	</head>	
+	<body bgcolor="#ecf0f1" alink="#0099CC" vlink="#FFCC00"><hr color="#bdc3c7" size="10" width="90%">
+	
+		<font face="Courier"><h1><center>Hello, World!</center></h1><br>
+		<h3><strong>About Me</strong></h3></font>
+		<p>Hi! I'm Ly Escorial, a junior student of Information Technology with specialization in Web Applications Development. </p>
+		<p>I see myself as a kiddo-at-heart who likes to observe and wonder about random stuff which makes me a little weird.</p>
+		<p>I usually go by the username <strong>observingly</strong> which is a combination of the word observing and the last two letters of Lovely.	
+		</p><p>I have an omnibus of interests such as: (1) reading books esp. the fictional ones (2) wandering through the WWW</p>
+		<p>(3) post it online. (4) I have knack for web comics. (5) what else?, then nothing. Head to the next sections below.</p><br>
+		<p></p><h3><strong>Sites I Like:</strong></h3><p></p>
+		<ul>
+			<li><a href="http://www.buttersafe.com/" target="blank">Buttersafe</a></li>
+			<li><a href="http://www.incidentalcomics.com/" target="blank">INCIDENTAL COMICS</a>
+			</li><li><a href="http://www.theoatmeal.com/" target="blank">The Oatmeal</a></li>
+			<li><a href="http://www.xkcd.com/" target="blank">xkcd</a></li>
+		</ul><br>	
+		<p></p><h3><strong>For stalkers,</strong></h3><p></p>
+		<a href="mailto:lyescorial@gmail.com" target="blank"><img src="ly%27s%20html%20page_files/social-icon-email.png"></a>&#8194;
+		<a href="http://www.facebook.com/ceelylo" target="blank"><img src="ly%27s%20html%20page_files/social-icon-facebook.png"></a>&#8194;
+		<a href="http://www.twitter.com/observingly" target="blank"><img src="ly%27s%20html%20page_files/social-icon-twitter.png"></a>&#8194;
+		<br><hr color="#bdc3c7" size="10" width="90%">
+	
+</body></html>
