@@ -1,235 +1,233 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"><!--<![endif]-->
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
 	<title></title>
 	<link rel="shortcut icon" href="favicon.ico">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" media="all" href="css/whhg.css" />
-	<script src="js/modernizr.custom.js"></script>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" type="text/css" media="all" href="css/whhg.css" media="screen">
+	<!-- <link rel="stylesheet" href="css/style.min.css" type="text/css" media="screen"> -->
+	<!--[if IE]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script>
+	$(function(){
+		$("#d2").hide();
+		$("#d1").click(function(){
+			$("#d2").fadeToggle();		
+		});
+		$("#d4").hide();
+		$("#d3").click(function(){
+			$("#d4").fadeToggle();		
+		});
+		$("#d6").hide();
+		$("#d5").click(function(){
+			$("#d6").fadeToggle();
+		});
+		$("#d8").hide();
+		$("#d7").click(function(){
+			$("#d8").fadeToggle();		
+		});
+		$("#d10").hide();
+		$("#d9").click(function(){
+			$("#d10").fadeToggle();		
+		});
+	 });
+</script>
+<script>
+	$(function(){                                    
+		jQuery('#btn1').click(function(){
+			jQuery('p').prepend('<b>New Data Inserted </b>');
+		});
+		num=3;
+		$('#btn2').click(function(){
+			num++;
+			$('ul').append("<li> Data #" + num + "</li>");
+		});
+		$('#cls').click(function(){
+			$('ul').empty();
+		});
+		
+	});
+</script>
 </head>
+
 <body>
-	<div class="md-modal md-effect-11" id="modal-11">
-		<div class="md-content">
-			<input class="md-close" type="button" value="X">
-			<form>
-				<i class="icon-user"></i>
-				<input class="login-field" type="text" placeholder="username" required>&nbsp;
-				<i class="icon-key"></i>
-				<input class="login-field" type="password" placeholder="password" required><br>
-				<input type="checkbox"> Remember me
-				<input class="login-btn" type="submit" value="Login">
-				<a class="login-link" href="#">Forgot your password?</a>
-			</form>
+
+	<div class="menu">
+		<div class="container clearfix">
+
+			<div id="logo" class="grid_3">
+				<a href="http://observingly.github.io"><img src="images/logo.png"></a>
+			</div>
+
+			<div id="nav" class="grid_9 omega">
+				<ul class="navigation">
+					<li data-slide="1">HOME</li>
+					<li data-slide="2">ABOUT</li>
+					<li data-slide="3">PORTFOLIO</li>
+					<li data-slide="4">FIN</li>
+				</ul>
+			</div>
+
 		</div>
 	</div>
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-  		var js, fjs = d.getElementsByTagName(s)[0];
-  		if (d.getElementById(id)) return;
- 		js = d.createElement(s); js.id = id;
-  		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  		fjs.parentNode.insertBefore(js, fjs);
-		} (document, 'script', 'facebook-jssdk'));
-	</script>
-	<header>
-		<div>
-			<h1><a href="http://observingly.github.io">OTTER RIFIC !</a></h1>
-		</div>
-		<nav class="cl-effect-1">
-			<a href="#" class="md-trigger" data-modal="modal-11">LOGIN</a>
-			<a href="form.html">REGISTER</a>
-			<div class="fb-like" data-href="http://developers.facebook.com/docs/reference/plugins/like" data-width="450" data-layout="button_count" data-show-faces="false" data-send="true"></div>
-		</nav>
-	</header>
-	 	<div class="container">	
-			<div id="bl-main" class="bl-main">
-				<section>
-					<div class="bl-box">
-						<h2 class="bl-icon icon-home"><div class="ps2p">Home</div></h2>
-					</div>
-					<div class="bl-content" id="home">
-						<h2>Hello!</h2><br>
-						<p>TADAH! Without further a babble, this is my website. Did you find OTTER RIFIC ! (name of this website) oh so terrific? LOL.</p><br>
-						<p>For a more serious introduction, Ahem! This personal website that I have created is intended for a Web Design Project. Now, go ahead, explore and see because adventure is out there <i class="icon-emojiwink"></i> <i class="icon-thumbs-up"></i></p>
-					</div>
-					<span class="bl-icon bl-icon-close"></span>
-				</section>
-				<section>
-					<div class="bl-box">
-						<h2 class="bl-icon icon-avataralt"><div class="ps2p">About</div></h2>
-					</div>
-					<div class="bl-content">
-						<h2>M-E</h2>
-						<p>Okay, let me talk about myself since this section is all about the person behind this thing called About. Should I start? (a short pause) Probably, that's my queue to begin. Ahem!</p><br>
-						<p>I am Ly Escorial. I am the girl behind this website, apparently. <strong>observingly</strong> is my username that I use mostly on my accounts online.</p><br>
-						<p align="center">
-							<a href="http://facebook.com/ceelylo"><icon class="icon-facebook"></icon></a>
-							<a href="http://plus.google.com/101978699740526775940/about?partnerid=gplp0"><icon class="icon-googleplus"></icon></a>
-							<a href="http://github.com/observingly"><icon class="icon-github"></icon></a>
-							<a href="http://twitter.com/observingly"><icon class="icon-twitter"></icon></a>
-							<a href="http://crunchbang.org/forums/profile.php?id=22305"<icon class="icon-forumsalt"></icon></a>
-						</p>
-					</div>
-					<span class="bl-icon bl-icon-close"></span>
-				</section>
-				<section>
-					<div class="bl-box">
-						<h2 class="bl-icon icon-images-gallery"><div class="ps2p">Gallery</div></h2>
-					</div>
-					<div class="bl-content">
-						<h2>Some photographs</h2>
-						<p>Myself</p>
-							<center>
-								<img src="img/8.jpg" height="250">
-								<img src="img/2.jpg" height="250">
-								<img src="img/1.jpg" height="250"><br><br>
-							</center>
-						<p>Family</p>
-							<center>
-								<img src="img/3.jpg" height="250" width="600">
-								<img src="img/7.jpg" height="250"><br>
-								<img src="img/5.jpg" height="250">
-								<img src="img/4.jpg" height="250">
-								<img src="img/6.jpg" height="250"><br><br>
-							</center>
-						<p>Friends</p>
-							<center>
-								<img src="img/9.jpg" height="250">
-								<img src="img/13.jpg" height="250">
-								<img src="img/12.jpg" height="250">
-							</center>
-					</div>
-					<span class="bl-icon bl-icon-close"></span>
-				</section>
-				<section>
-					<div class="bl-box">
-						<h2 class="bl-icon icon-at"><div class="ps2p">Contact</div></h2>
-					</div>
-					<div class="bl-content">
-						<h2>Keep in touch</h2>
-						<table align="left" cellspacing="20px" cellspacing="20px">
-							<tr>
-								<td><i class="icon-gmail"></i></td>
-								<td>lyescorial@gmail.com</td>
-							</tr>
-							<tr>
-								<td><i class="icon-mobile"></i></td>
-								<td>09277137627</td>
-							</tr>
-							<tr>
-								<td><i class="icon-map-marker"></i></td>
-								<td><iframe name="map" width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Quezon+Boulevard,+Manila,+Metro+Manila,+Philippines&amp;aq=1&amp;oq=quezon+bo&amp;sll=14.604959,120.977559&amp;sspn=0.020723,0.042186&amp;ie=UTF8&amp;hq=&amp;hnear=Quezon+Blvd,+Lungsod+ng+Maynila,+Metro+Manila,+Philippines&amp;t=m&amp;ll=14.601026,120.984535&amp;spn=0.024918,0.025749&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe></td>
-							</tr>
-						</table>jkm,
-						<br><br><br>
-						<form class="con-form">
-							<i class="icon-user"></i>
-							Name&nbsp;&nbsp;&nbsp;&nbsp;<input class="login-field" type="text" required><br>
-							<i class="icon-emailalt"></i>
-							Email&nbsp;&nbsp;&nbsp;<input class="login-field" type="email" required><br>
-							<i class="icon-commentround"></i>
-							Message&nbsp;<input class="text-field" type="email" required><br>
-							<input class="con-btn" type="submit" value="Submit">
-						</form>
-					</div>
-					<span class="bl-icon bl-icon-close"></span>
-				</section>
-				<section>
-					<div class="bl-box">
-						<h2 class="bl-icon icon-favoritefile"><div class="ps2p">Favorite</div></h2>
-					</div>
-					<div class="bl-content">
-						<h2>My Favorites</h2>
-						<p>Links</p>
-						<center>
-							<a href="http://buttersafe.com"><img src="img/buttersafe.png"></a>
-							<a href="http://theoatmeal.com"><img src="img/theoatmeal.jpeg"></a>
-							<a href="http://incidentalcomics.com"><img src="img/incidentalcomics.jpg"></a>
-						</center>
-						<p> </p>
-						<p>Videos</p>
-						<center>
-							<iframe width="295" height="170" src="http://www.youtube.com/embed/MRuURW_UXfw" frameborder="0" allowfullscreen></iframe>
-							<iframe width="295" height="170" src="//www.youtube.com/embed/irbFBgI0jhM?rel=0" frameborder="0" allowfullscreen></iframe>
-							<iframe width="295" height="170" src="//www.youtube.com/embed/ieN2vhslTTU?rel=0" frameborder="0" allowfullscreen></iframe>
-						</center>
-						<p> </p>
-						<p>Game</p>
-						<center>
-							<iframe name="game" src="http://www.freeonlinegames.com/embed/21522" align="center" width="660" height="450" frameborder="no" scrolling="no"></iframe>
-						</center>
-					</div>
-					<span class="bl-icon bl-icon-close"></span>
-				</section>
-				<section id="bl-work-section">
-					<div class="bl-box"> 
-						<h2 class="bl-icon icon-code"><div class="ps2p">Portfolio</div></h2>
-					</div>
-					<div class="bl-content">
-						<h2>My Works</h2>
-						<p></p>
-						<ul id="bl-work-items">
-							<li data-panel="panel-1"><a href="#"><img src="img/1.jpg" /></a></li>
-							<li data-panel="panel-2"><a href="#"><img src="images/2.jpg" /></a></li>
-							<li data-panel="panel-3"><a href="#"><img src="images/3.jpg" /></a></li>
-							<li data-panel="panel-4"><a href="#"><img src="images/4.jpg" /></a></li>
-						</ul>
-					</div>
-					<span class="bl-icon bl-icon-close"></span>
-				</section>
-				<!-- Panel items for the works -->
-				<div class="bl-panel-items" id="bl-panel-work-items">
-					<div data-panel="panel-1">
-						<div>
-							<img src="images/1.jpg" />
-							<h3>Fixie bespoke</h3>
-							<p>Iphone artisan direct trade ethical Austin. Fixie bespoke banh mi ugh, deep v vinyl hashtag. Tumblr gentrify keffiyeh pop-up iphone twee biodiesel. Occupy american apparel freegan cliche. Mustache trust fund 8-bit jean shorts mumblecore thundercats. Pour-over small batch forage cray, banjo post-ironic flannel keffiyeh cred ethnic semiotics next level tousled fashion axe. Sustainable cardigan keytar fap bushwick bespoke.</p>
-						</div>
-					</div>
-					<div data-panel="panel-2">
-						<div>
-							<img src="images/2.jpg" />
-							<h3>Chillwave mustache</h3>
-							<p>Squid vinyl scenester literally pug, hashtag tofu try-hard typewriter polaroid craft beer mlkshk cardigan photo booth PBR. Chillwave 90's gentrify american apparel carles disrupt. Pinterest semiotics single-origin coffee craft beer thundercats irony, tumblr bushwick intelligentsia pickled. Narwhal mustache godard master cleanse street art, occupy ugh selfies put a bird on it cray salvia four loko gluten-free shoreditch.</p>
-						</div>
-					</div>
-					<div data-panel="panel-3">
-						<div>
-							<img src="images/3.jpg" />
-							<h3>Austin hella</h3>
-							<p>Ethical cray wayfarers leggings vice, seitan banksy small batch ethnic master cleanse. Pug chillwave etsy, scenester meh occupy blue bottle tousled blog tonx pinterest selvage mixtape swag cosby sweater. Synth tousled direct trade, hella Austin craft beer ugh chambray.</p>
-						</div>
-					</div>
-					<div data-panel="panel-4">
-						<div>
-							<img src="images/4.jpg" />
-							<h3>Brooklyn dreamcatcher</h3>
-							<p>Fashion axe 90's pug fap. Blog wayfarers brooklyn dreamcatcher, bicycle rights retro YOLO. Wes anderson lomo 90's food truck 3 wolf moon, twee jean shorts. Iphone small batch twee wolf yr before they sold out. Brooklyn echo park cred, portland pug selvage flannel seitan tousled mcsweeney's.</p>
-						</div>
-					</div>
-					<nav>
-						<span class="bl-next-work">&gt; Next Project</span>
-						<span class="bl-icon bl-icon-close"></span>
-					</nav>
-				</div>
+
+
+	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h1>127.0.0.1</h1>
+				<h2>without further a babble</h2>
+				<p>This is a personal website that I have created for a Web Design Project.</p>
 			</div>
 		</div>
-	<footer>
-		&copy; 2013 @observingly . All rights reserved.
-	</footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="js/boxlayout.js"></script>
-	<script>
-		$(function() {
-			Boxlayout.init();
-		});
-	</script>
-	<script src="js/classie.js"></script>
-		<script src="js/modalEffects.js"></script>
-		<script>
-			var polyfilter_scriptpath = '/js/';
-		</script>
-		<script src="js/cssParser.js"></script>
-		<script src="js/css-filters-polyfill.js"></script>
+	</div>
+
+
+
+	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+			<div id="content" class="grid_12">
+				<h1>About</h1>
+				<ul class="timeline">
+     				<li style="list-style-type: none;" class="event">
+			        <input type="radio" name="tl-group" checked/>
+			        <label></label>
+			        <div class="thumb user"><img src="images/ly.png"></div>
+			        <div class="content-perspective">
+			            <div class="content">
+			                <div class="content-inner">
+			                    <h3>Ly Escorial</h3>
+			                    <p>Also known as observingly, the girl behind this website. Apparently.</p>
+								<p>I am a junior student of Information Technology with specialization in Web Application Development.</p>
+								<p> I have an omnibus of interests such as: (1) reading books esp. the fictional ones (2) wandering through the WWW (3) post it online. (4) I have knack for web comics. (5) what else?</p>
+								<p>Ahm, don't forget to keep in touch and follow me!</p>
+								<p>
+									<a href="mailto:lyescorial@gmail.com" target="_blank"><img src="images/social-icon-email.png"></a>
+					                <a href="http://facebook.com/ceelylo" target="_blank"><img src="images/social-icon-facebook.png"></a>
+					                <a href="http://google.com/+LyEscorial" target="_blank"><img src="images/social-icon-googleplus.png"></a>
+					                <a href="http://github.com/observingly" target="_blank"><img src="images/social-icon-github.png"></a>
+					                <a href="http://twitter.com/observingly" target="_blank"><img src="images/social-icon-twitter.png"></icon></a>
+					                <a href="http://crunchbang.org/forums/profile.php?id=22305" target="_blank"><img src="images/social-icon-crunchbang.png"></icon></icon></a>
+			                	</p>
+			                </div>
+			            </div>
+			        </div>
+			    </li>
+			</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+			<div id="content" class="grid_12">
+				<h1>Work of Code</h1>
+				<h2>tadah, see my works</h2>
+				<br>
+				<div id="d1">
+                    Dashboard
+				</div>
+				<div id="d2">
+				<div class="top">
+					<img src="images/logo1.png">
+				</div>
+				<div class="dashboard">
+					<table align="center" cellpadding="10" cellspacing="30">
+						<tr>
+							<td><a href="#"><img height="150" src="images/archive-icon.png"></a></td>
+							<td><a href="#"><img src="images/store-icon.png"></a></td>
+							<td><a href="#"><img height="160" src="images/about-icon.png"></a></td>
+							<td><a href="#"><img src="images/mail-icon.png"></a></td>
+						</tr>
+						<tr align="center">
+							<td><a href="#">Archive</a></td>
+							<td><a href="#">Store</a></td>
+							<td><a href="#">About</a></td>
+							<td><a href="#">Contact</a></td>
+						</tr>
+						<tr>
+							<td><a href="#"><img height="130" width="150" src="images/forum-icon.png"></a></td>
+							<td><a href="#"><img width="170" src="images/rocket-icon.png"></a></td>
+							<td><a href="#"><img height="150" src="images/rss-icon.png"></a></td>
+							<td><a href="#"><img height="150" src="images/twitter-icon.png"></a></td>
+						</tr>
+						<tr align="center">
+							<td><a href="#">Forum</a></td>
+							<td><a href="#">Amazing Things</a></td>
+							<td><a href="#">Feeds</a></td>
+							<td><a href="#">Twitter Page</a></td>
+						</tr>
+					</table>
+				</div>
+				</div>
+				<br>
+				<div id="d3">
+                    Neil Gaiman
+				</div>
+				<div id="d4">
+					<img src="images/neil.png">
+				</div>
+				<br>
+				<div id="d5" onclick="randomize()">
+                    Lucky 9
+				</div>
+				<div id="d6">
+					<script src="js/random.js"></script>
+				</div>
+				<br>
+				<div id="d7">
+                    JavaScript Animation
+				</div>
+				<div id="d8">
+					<img src="images/a.jpg" width="400px" height="204" id="myImage"/>
+				</div>
+				<br>
+				<div id="d9">
+                    jQuery Functions
+				</div>
+				<div id="d10">
+					<p>Check out the data to be inserted here...</p>
+<ul>
+	<li>Data #1</li>
+    <li>Data #2</li>
+    <li>Data #3</li>
+</ul>
+<button id='btn1'>Prepend</button>
+<button id='btn2'>Append</button>
+<button id='cls'>Clear LIST</button>
+				</div>
+		</div>
+	</div>
+	</div>
+
+
+
+	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
+		<div class="container clearfix">
+
+			<div id="content" class="grid_12">
+				<h1>Fin</h1>
+				<h2></h2>
+			</div>
+		</div>
+	</div>
+
+	 <script src="js/animation.js"></script>
+	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
+
 </body>
 </html>
